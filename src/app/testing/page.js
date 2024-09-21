@@ -1,3 +1,5 @@
+"use server";
+
 import { createClient } from "@/utils/supabase/server";
 
 export default async function Notes() {
@@ -21,7 +23,7 @@ export default async function Notes() {
     return (
       <div>
         <h2>
-          Data from {schema}.{table}:
+          Successfully fetching Data from {schema}.{table}:
         </h2>
         <pre>{JSON.stringify(data, null, 2)}</pre>
       </div>
