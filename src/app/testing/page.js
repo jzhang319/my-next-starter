@@ -31,4 +31,3 @@ export default async function Notes() {
     return <div>An unexpected error occurred: {error.message}</div>;
   }
 }
-

@@ -1,24 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My NEXT.js Starter
+
+This is a custom project starter for a full-stack Next.js app using Supabase for the database and authentication.
 
 ## Getting Started
 
-First, run the development server:
+
+First, install dependencies with `npm install` in the root directory, then start the development server with `npm run dev`:
 
 ```bash
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses Cookie-based Auth with Supabase, Supabase as the database, and Next.js as the frontend framework.
 
 ## Learn More
 
